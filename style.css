@@ -31,6 +31,7 @@ margin-left: auto;
     text-align: center;
     color: black;
     background-color: #555;
+    box-shadow: none;
 }
 h2{
     text-decoration: solid;
@@ -57,10 +58,11 @@ textarea{
 	width: 600px;
 	height: 120px;
 	border: 3px solid #cccccc;
-    box-sizing:content-box;
+    box-sizing:border-box;
 	padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	background-position: bottom right;
+	position: relative;
+    margin-left: 111px;
     resize: vertical;
 }
 input[type=text], input[type=email]{
@@ -72,3 +74,35 @@ input[type=text], input[type=email]{
     resize: vertical;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+div{
+    width: 58%;
+
+}
+.left{
+    position: absolute;
+    left: 15px;
+    width: 50%;
+}
+.right{
+    margin-top: -81%;
+    position: absolute;
+    right: 5%;
+    width: 35%;
+}
+h3{
+    color:powderblue;
+}
+h4{
+    color: aliceblue;
+}
+aside {
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 30%;
+    right: -15%;
+    padding-right: 15px;
+    margin-right: 30%;
+    font-style: italic;
+    background-color: lightgray;
+    text-align: center;
+  }
