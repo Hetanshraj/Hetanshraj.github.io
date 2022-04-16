@@ -55,13 +55,12 @@ a{
     width: 100%;
 }
 textarea{
-	width: 600px;
+	width: 50%;
 	height: 120px;
 	border: 3px solid #cccccc;
     box-sizing:border-box;
 	padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	margin-left: 111px;
     resize: vertical;
 }
 input[type=text], input[type=email]{
