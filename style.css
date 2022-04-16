@@ -7,6 +7,7 @@
     zoom: 1.0 ;
 }
 
+/*For mobile screens*/
 @media screen and (min-width:320px) and (max-width:640px) {
 
 } 
