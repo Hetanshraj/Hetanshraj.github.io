@@ -61,8 +61,7 @@ textarea{
     box-sizing:border-box;
 	padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	position: relative;
-    margin-left: 111px;
+	margin-left: 111px;
     resize: vertical;
 }
 input[type=text], input[type=email]{
@@ -75,7 +74,7 @@ input[type=text], input[type=email]{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 div{
-    width: 58%;
+    width: 100%;
 
 }
 .left{
@@ -84,10 +83,8 @@ div{
     width: 50%;
 }
 .right{
-    margin-top: -81%;
-    position: absolute;
-    right: 5%;
-    width: 35%;
+    position: relative;
+    margin-left: 10%;
 }
 h3{
     color:powderblue;
@@ -98,7 +95,7 @@ h4{
 aside {
     color: rgb(0, 0, 0);
     position: relative;
-    width: 30%;
+    width: 15%;
     right: -15%;
     padding-right: 15px;
     margin-right: 30%;
